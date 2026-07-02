@@ -95,3 +95,5 @@ These configuration files are released under the [MIT License](LICENSE) for pers
 
 Il metodo "Sei Cappelli per Pensare" è un framework di Edward de Bono / The de Bono Group.  
 Questi file di configurazione sono rilasciati sotto [licenza MIT](LICENSE) per uso personale e professionale.
+
+
