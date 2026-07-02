@@ -1,0 +1,30 @@
+{
+  "name": "6-hats-agents",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Six Thinking Hats multi-agent system for VS Code GitHub Copilot — Blue Hat orchestrator + 5 specialized workers based on Edward de Bono's method.",
+  "keywords": [
+    "github-copilot",
+    "custom-agents",
+    "vs-code",
+    "six-thinking-hats",
+    "de-bono",
+    "multi-agent",
+    "ai-agents",
+    "decision-making"
+  ],
+  "scripts": {
+    "build": "node eng/update-readme.mjs",
+    "start": "node eng/update-readme.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antoniobilotta/6-hats-agents.git"
+  },
+  "bugs": {
+    "url": "https://github.com/antoniobilotta/6-hats-agents/issues"
+  },
+  "homepage": "https://github.com/antoniobilotta/6-hats-agents#readme",
+  "author": "antoniobilotta",
+  "license": "MIT"
+}

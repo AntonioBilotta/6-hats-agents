@@ -2,7 +2,7 @@
 name: Cappello Blu
 description: "Avvia una sessione 6 Cappelli — descrivi il tuo problema o decisione"
 model: "Claude Sonnet 4.6 (copilot)"
-tools: ['agent', 'edit', 'read']
+tools: ['agent', 'edit/editFiles', 'read/readFile']
 agents: ['Cappello Bianco', 'Cappello Verde', 'Cappello Giallo', 'Cappello Nero', 'Cappello Rosso']
 user-invocable: true
 ---
