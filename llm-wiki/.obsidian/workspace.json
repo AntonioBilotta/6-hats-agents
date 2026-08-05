@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "d70b730d952e6d6a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d8959bf292667331",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5db122db4af873ec",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista grafo"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4e37993843c4e696",
+    "type": "split",
+    "children": [
+      {
+        "id": "c95353c2d4aca67e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "34028518248c9172",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Esplora risorse"
+            }
+          },
+          {
+            "id": "19912d5123c8a1c4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Ricerca"
+            }
+          },
+          {
+            "id": "6908e595226ecaf9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Segnalibri"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "dc99e7557450c2d6",
+    "type": "split",
+    "children": [
+      {
+        "id": "8dc2a3af6941338c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ea74a694964497cd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "raw/references/Copilot CLI sessions in Visual Studio Code.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Riferimenti a Copilot CLI sessions in Visual Studio Code"
+            }
+          },
+          {
+            "id": "c619532fd3034957",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "raw/references/Copilot CLI sessions in Visual Studio Code.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Collegamenti in uscita da Copilot CLI sessions in Visual Studio Code"
+            }
+          },
+          {
+            "id": "055412b9f5980d11",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etichette"
+            }
+          },
+          {
+            "id": "712243fefbe8ecd0",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Tutte le proprietà"
+            }
+          },
+          {
+            "id": "6b86e3be4329887c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "raw/references/Copilot CLI sessions in Visual Studio Code.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Struttura di Copilot CLI sessions in Visual Studio Code"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
+      "bases:Crea nuova Base": false
+    }
+  },
+  "active": "5db122db4af873ec",
+  "lastOpenFiles": [
+    "raw/references/Copilot CLI sessions in Visual Studio Code.md",
+    "README.md",
+    "wiki/decisions/architettura_agenti.md",
+    "wiki/agents/cappello_verde.md",
+    "wiki/agents/cappello_giallo.md",
+    "wiki/agents/cappello_nero.md",
+    "wiki/agents/cappello_rosso.md",
+    "wiki/agents/cappello_bianco.md",
+    "wiki/agents/cappello_blu.md",
+    "raw/specs/note_implementazione_agenti.md",
+    "raw/specs/agenti_cappelli.md",
+    "wiki/analysis/copilot_subagents_multiagente.md",
+    "wiki/sources/copilot_subagents_vscode.md",
+    "wiki/sources/copilot_custom_agents_vscode.md",
+    "wiki/sources/copilot_cli_vscode.md",
+    "raw/references/Subagents in Visual Studio Code.md",
+    "raw/references/Custom agents in VS Code.md",
+    "wiki/entities/edward_de_bono.md",
+    "wiki/sources/six_thinking_hats_betterevaluation.md",
+    "wiki/sources/six_thinking_hats_wikipedia.md",
+    "raw/references/six_thinking_hats_betterevaluation.md",
+    "raw/references/six_thinking_hats_wikipedia.md",
+    "wiki/analysis/sequenze_per_obiettivo.md",
+    "wiki/concepts/benefici_e_applicazioni.md",
+    "wiki/sources/six_thinking_hats_debono_group.md",
+    "wiki/concepts/pensiero_laterale.md",
+    "Clippings"
+  ]
+}
