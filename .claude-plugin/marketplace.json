@@ -1,0 +1,14 @@
+{
+  "name": "6-hats-agents",
+  "description": "Six Thinking Hats (de Bono) multi-agent system for Claude.",
+  "owner": {
+    "name": "Antonio Bilotta"
+  },
+  "plugins": [
+    {
+      "name": "six-hats",
+      "source": "./claude-plugin",
+      "description": "Six Thinking Hats multi-agent system for Claude: Blue Hat orchestrator skill + 5 hat agents."
+    }
+  ]
+}
