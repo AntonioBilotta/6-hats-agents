@@ -92,6 +92,7 @@ After each agent, check:
 - **Black as venting**: does every Black risk answer "*how* exactly does it fail"? If not, it's Red in disguise.
 - **Red without legitimacy**: did Red rationalise instead of expressing emotion? Restate that emotion is required, not tolerated.
 - **Context leak**: did the agent use facts about the user that were not in its prompt (projects, personal circumstances, past conversations)? If so, flag them to the user and re-invoke the agent stating that only the provided context may be used.
+- **New alternatives outside Green**: did a hat other than Green introduce or develop a new option not posed by the user (for example a hybrid)? If so, flag it and ask the user whether to add it to the alternatives before invoking the next hat. Until the user agrees, keep later hats on the original alternatives.
 - **Extra output**: did the agent add anything besides its hat block (notes to you, memory-saving proposals)? Drop it and mention it in one line.
 
 If a check fails: flag the overstep to the user, reframe the task stating the violated constraint, and re-invoke the same agent once.

@@ -59,7 +59,7 @@ Since v0.2.0 the hats are **isolated by instruction**: each agent has a *Context
 
 ## Test checklist
 
-Results per surface. Cloud agentic session tested on 2026-10-12 with v0.1.0.
+Results per surface. Agentic sessions tested on 2026-10-12: v0.1.0 (home lab domain choice) and v0.2.0 (renovation: one contractor vs separate firms).
 
 | Check | Agentic session (cloud) | Claude Code | Plain chat |
 |---|---|---|---|
@@ -69,11 +69,11 @@ Results per surface. Cloud agentic session tested on 2026-10-12 with v0.1.0.
 | **Sequential**, never parallel | ✅ | ⬜ | n/a |
 | **Tool restrictions**: `red-hat` with `tools: []` has no tools | ✅ (the agent list shows "All tools", but at runtime Red had none) | ⬜ (docs: an empty list may make the agent fail to launch) | n/a |
 | **Type confirmation** before the first agent | ✅ | ⬜ | n/a |
-| **Re-confirmation** when the problem changes | ❌ in v0.1.0, fixed in v0.2.0, to retest | ⬜ | n/a |
-| **Arbitration** of out-of-role hats | ✅ (no overstep occurred) | ⬜ | n/a |
+| **Re-confirmation** when the problem changes | ✅ v0.2.0 (❌ in v0.1.0) | ⬜ | n/a |
+| **Arbitration** of out-of-role hats | ⚠️ v0.2.0: Yellow introduced a hybrid option and Blue did not flag it; check added in v0.2.1, to retest | ⬜ | n/a |
 | **Context passing**: Red gets the plan, Black gets Yellow | ✅ | ⬜ | n/a |
-| **Isolation**: no personal facts outside the prompt | ❌ in v0.1.0, fixed by instruction in v0.2.0, to retest | ⬜ | n/a |
-| **Clean output**: no memory-saving proposals | ❌ in v0.1.0, fixed in v0.2.0, to retest | ⬜ | n/a |
+| **Isolation**: no personal facts outside the prompt | ✅ v0.2.0, even with a memory-heavy topic (❌ in v0.1.0) | ⬜ | n/a |
+| **Clean output**: no memory-saving proposals | ✅ v0.2.0 (❌ in v0.1.0) | ⬜ | n/a |
 
 If `red-hat` or `yellow-hat` fail to launch in Claude Code because of the empty `tools` list, replace it with a single tool that reads no data and has no web access.
 
