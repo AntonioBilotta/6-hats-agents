@@ -1,12 +1,14 @@
 ---
 tipo: source
 data_creazione: 2026-07-02
-data_aggiornamento: 2026-07-02
+data_aggiornamento: 2026-10-12
 fonti_correlate: ["[[copilot_cli_vscode]]"]
 tags: [source, copilot, custom-agents, vscode, implementazione, agent-md]
 ---
 
 # Custom Agents in VS Code
+
+- **Provenance**: `raw/references/Custom agents in VS Code.md`
 
 **Provenienza:** Documentazione ufficiale Microsoft VS Code
 **URL:** https://code.visualstudio.com/docs/agent-customization/custom-agents

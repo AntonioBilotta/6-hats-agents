@@ -1,12 +1,14 @@
 ---
 tipo: source
 data_creazione: 2026-07-02
-data_aggiornamento: 2026-07-02
+data_aggiornamento: 2026-10-12
 fonti_correlate: ["[[copilot_custom_agents_vscode]]", "[[copilot_cli_vscode]]"]
 tags: [source, copilot, subagents, vscode, implementazione, orchestrazione]
 ---
 
 # Subagents in Visual Studio Code
+
+- **Provenance**: `raw/references/Subagents in Visual Studio Code.md`
 
 **Provenienza:** Documentazione ufficiale Microsoft VS Code
 **URL:** https://code.visualstudio.com/docs/agents/subagents

@@ -1,12 +1,14 @@
 ---
 tipo: source
 data_creazione: 2026-07-02
-data_aggiornamento: 2026-07-02
+data_aggiornamento: 2026-10-12
 fonti_correlate: []
 tags: [sequenze, evaluation, facilitazione, betterevaluation]
 ---
 
 # Six Thinking Hats — BetterEvaluation
+
+- **Provenance**: `raw/references/six_thinking_hats_betterevaluation.md`
 
 **Fonte:** https://www.betterevaluation.org/methods-approaches/methods/six-thinking-hats
 **Rilevanza:** Guida pratica alla facilitazione del metodo, con consigli specifici su sequenza per evaluation/performance review e ruolo adattivo del facilitatore.

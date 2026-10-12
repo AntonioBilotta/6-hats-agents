@@ -1,12 +1,14 @@
 ---
 tipo: source
 data_creazione: 2026-07-02
-data_aggiornamento: 2026-07-02
+data_aggiornamento: 2026-10-12
 fonti_correlate: []
 tags: [sequenze, ufficiale, wikipedia, timing, programmi]
 ---
 
 # Six Thinking Hats — Wikipedia
+
+- **Provenance**: `raw/references/six_thinking_hats_wikipedia.md`
 
 **Fonte:** https://en.wikipedia.org/wiki/Six_Thinking_Hats
 **Rilevanza:** Articolo enciclopedico che riporta le sequenze ufficiali dai materiali di training De Bono Thinking Systems e il timing raccomandato per ogni cappello.

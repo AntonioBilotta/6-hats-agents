@@ -1,12 +1,14 @@
 ---
 tipo: source
 data_creazione: 2026-06-30
-data_aggiornamento: 2026-06-30
+data_aggiornamento: 2026-10-12
 fonti_correlate: []
 tags: [6-hats, prompting, ia, de-bono, decision-making]
 ---
 
 # I Sei Cappelli per Pensare di De Bono: 7 Prompt di IA
+
+- **Provenance**: `raw/references/I Sei Cappelli per Pensare di De Bono a 7 Prompt di IA che Rivoluzioneranno il Tuo Processo Decisionale.md`
 
 **Autore:** EQ4C (Reddit r/ChatGPTPromptGenius)
 **Pubblicato:** 2026-01-10

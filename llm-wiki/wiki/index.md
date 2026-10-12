@@ -1,6 +1,6 @@
 ---
 tipo: index
-data_aggiornamento: 2026-07-02
+data_aggiornamento: 2026-10-12
 ---
 
 # Wiki Index — Workflow Multi-Agente — 6 Cappelli per il Pensiero
@@ -26,12 +26,12 @@ Link rapidi: [[overview]] · [[log]]
 
 | Pagina | Descrizione | Ultima modifica |
 |--------|-------------|-----------------|
-| [[cappello_blu]] (agent) | Direttore d'Orchestra — coordinatore user-invocable, orchestrazione sequenza e sintesi finale | 2026-07-02 |
-| [[cappello_bianco]] (agent) | Detective dei Dati — fatti verificabili, lacune, domande specifiche | 2026-07-02 |
-| [[cappello_rosso]] (agent) | Smascheratore dell'Intuizione — emozioni, mappa stakeholder, paure/desideri nascosti | 2026-07-02 |
-| [[cappello_nero]] (agent) | Architetto del Rischio — 5 punti critici, analisi mancato obiettivo, ostacoli trascurati | 2026-07-02 |
-| [[cappello_giallo]] (agent) | Cacciatore di Valore — 5 vantaggi, scenario migliore, strategie di massimizzazione | 2026-07-02 |
-| [[cappello_verde]] (agent) | Catalizzatore della Crescita — alternative non convenzionali, parola casuale, provocazioni | 2026-07-02 |
+| [[cappello_blu]] (agent) | Direttore d'Orchestra — coordinatore user-invocable, orchestrazione sequenza e sintesi finale | 2026-10-12 |
+| [[cappello_bianco]] (agent) | Detective dei Dati — fatti verificabili, lacune, domande specifiche | 2026-10-12 |
+| [[cappello_rosso]] (agent) | Smascheratore dell'Intuizione — emozioni, mappa stakeholder, paure/desideri nascosti | 2026-10-12 |
+| [[cappello_nero]] (agent) | Architetto del Rischio — 5 punti critici, analisi mancato obiettivo, ostacoli trascurati | 2026-10-12 |
+| [[cappello_giallo]] (agent) | Cacciatore di Valore — 5 vantaggi, scenario migliore, strategie di massimizzazione | 2026-10-12 |
+| [[cappello_verde]] (agent) | Catalizzatore della Crescita — alternative non convenzionali, parola casuale, provocazioni | 2026-10-12 |
 
 ---
 
@@ -47,6 +47,7 @@ Link rapidi: [[overview]] · [[log]]
 
 | Pagina | Descrizione | Ultima modifica |
 |--------|-------------|-----------------|
+| [[context_leak_memoria_subagenti]] | I subagenti ricevono la memoria dell'utente dall'ambiente — mitigato per istruzione in v0.2.0, verificato | 2026-10-12 |
 
 ---
 
@@ -54,7 +55,9 @@ Link rapidi: [[overview]] · [[log]]
 
 | Pagina | Descrizione | Ultima modifica |
 |--------|-------------|-----------------||
-| [[architettura_agenti]] | Decisioni architetturali validate sui tool e comportamento dei 6 agenti | 2026-07-02 |
+| [[architettura_agenti]] | Decisioni architetturali validate sui tool e comportamento dei 6 agenti, incluso il porting su Claude | 2026-10-12 |
+| [[dominio_progetto_homelab]] | Quale dominio per il progetto home lab in modular monolith — raccomandazione V2, poi V1, V3 separata | 2026-10-12 |
+| [[impresa_unica_o_piu_ditte]] | Impresa unica (GC) o più ditte — raccomandazione condizionata: rischio concentrato vs rischio diffuso | 2026-10-12 |
 
 ---
 
@@ -63,6 +66,7 @@ Link rapidi: [[overview]] · [[log]]
 | Pagina | Descrizione | Ultima modifica |
 |--------|-------------|-----------------|
 | [[edward_de_bono]] | Creatore del framework Six Thinking Hats e del pensiero laterale | 2026-06-30 |
+| [[plugin_six_hats]] | Plugin Claude del sistema 6 Cappelli — versioni, comportamento osservato, verifiche | 2026-10-12 |
 
 ---
 
@@ -87,6 +91,10 @@ Link rapidi: [[overview]] · [[log]]
 | [[copilot_cli_vscode]] | Microsoft VS Code docs — Copilot CLI: sessioni in background, isolation modes, hand-off, custom agents | 2026-07-02 |
 | [[copilot_custom_agents_vscode]] | Microsoft VS Code docs — Custom agents: file `.agent.md`, frontmatter, handoffs, posizioni, least privilege | 2026-07-02 |
 | [[copilot_subagents_vscode]] | Microsoft VS Code docs — Subagents: pattern Coordinator+Worker, isolamento contesto, sequenzialità | 2026-07-02 |
+| [[test_plugin_claude_homelab]] | Sessione di test plugin six-hats 0.1.0 su Claude — dominio home lab, context leak, output extra, riconferma mancata | 2026-10-12 |
+| [[porting_claude_plugin]] | Spec del porting su Claude come plugin — architettura skill + 5 agenti, decisioni, mappatura Copilot → Claude, scoperte, verifiche aperte | 2026-10-12 |
+| [[test_plugin_v020_ristrutturazione]] | Sessione di verifica plugin six-hats 0.2.0 — impresa unica o più ditte, isolamento ok, sconfinamento del Giallo → v0.2.1 | 2026-10-12 |
+| [[allineamento_conferma_tipo_blu]] | Spec di allineamento — il Blu chiede sempre la conferma del tipo, nessun default; eccezioni nella skill Claude | 2026-10-12 |
 
 ---
 

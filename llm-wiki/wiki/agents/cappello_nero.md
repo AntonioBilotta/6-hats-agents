@@ -1,9 +1,9 @@
 ---
 tipo: agent
 data_creazione: 2026-07-02
-data_aggiornamento: 2026-07-02
+data_aggiornamento: 2026-10-12
 cappello_correlato: "[[cappello_nero]]"
-fonti_correlate: ["[[copilot_custom_agents_vscode]]", "[[copilot_subagents_multiagente]]"]
+fonti_correlate: ["[[copilot_custom_agents_vscode]]", "[[copilot_subagents_multiagente]]", "[[test_plugin_claude_homelab]]", "[[porting_claude_plugin]]", "[[test_plugin_v020_ristrutturazione]]"]
 file_tecnico: ".github/agents/cappello_nero.agent.md"
 tags: [agent, cappello-nero, rischi, criticita, worker]
 ---
@@ -71,3 +71,17 @@ Trovare i difetti è un atto di cura, non di sabotaggio. L'obiettivo non è bloc
 - [vincolo legale/etico/pratico non considerato]
 - [vincolo legale/etico/pratico non considerato]
 ```
+
+---
+
+## Porting su Claude
+
+Nel [[plugin_six_hats]] questo cappello è l'agente `black-hat` (in sessione `six-hats:black-hat`), invocato solo dalla skill `six-hats`. Tool: `Read`, `Grep`, `Glob`. `model: inherit`. Fonte: [[porting_claude_plugin]].
+
+---
+
+## Comportamento osservato su Claude
+
+- [[test_plugin_claude_homelab]] (v0.1.0): ha dato un meccanismo di fallimento per ogni rischio, senza sconfinare dal ruolo.
+- [[test_plugin_claude_homelab]] (v0.1.0): ha usato fatti personali dell'utente non presenti nel prompt ([[context_leak_memoria_subagenti]]) e ha aggiunto in coda una proposta di "salvare in memoria". Corretto in v0.2.0 con la regola "solo il blocco del cappello".
+- [[test_plugin_v020_ristrutturazione]] (v0.2.0): nel ruolo ✅; ha contestato punto per punto i vantaggi del Giallo, senza fatti personali né note in coda.

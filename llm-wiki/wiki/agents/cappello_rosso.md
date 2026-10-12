@@ -1,9 +1,9 @@
 ---
 tipo: agent
 data_creazione: 2026-07-02
-data_aggiornamento: 2026-07-02
+data_aggiornamento: 2026-10-12
 cappello_correlato: "[[cappello_rosso]]"
-fonti_correlate: ["[[copilot_custom_agents_vscode]]", "[[copilot_subagents_multiagente]]"]
+fonti_correlate: ["[[copilot_custom_agents_vscode]]", "[[copilot_subagents_multiagente]]", "[[test_plugin_claude_homelab]]", "[[porting_claude_plugin]]", "[[test_plugin_v020_ristrutturazione]]"]
 file_tecnico: ".github/agents/cappello_rosso.agent.md"
 tags: [agent, cappello-rosso, emozioni, intuizioni, worker]
 ---
@@ -69,3 +69,20 @@ Nessuna giustificazione logica. Le emozioni si esprimono come tali, non si spieg
 - [forza emotiva latente]
 - [forza emotiva latente]
 ```
+
+---
+
+## Porting su Claude
+
+Nel [[plugin_six_hats]] questo cappello è l'agente `red-hat` (in sessione `six-hats:red-hat`), invocato solo dalla skill `six-hats`. Tool: nessun tool (`tools: []`). `model: inherit`. Fonte: [[porting_claude_plugin]].
+
+> [!note] Verifica aperta
+> Non esiste un modo documentato per dare zero tool a un agente: da verificare se con `tools: []` l'agente parte anche in Claude Code; se dà errore, sostituire con un solo tool che non legge dati e non accede al web.
+
+---
+
+## Comportamento osservato su Claude
+
+- [[test_plugin_claude_homelab]] (v0.1.0): non ha usato tool e non ha razionalizzato.
+- **Test preliminare su `tools: []`:** invocato fuori da una sessione, ha riportato di avere solo il tool interno per restituire la risposta e di non aver potuto leggere un file. La lista agenti lo indicava invece come "All tools" (vedi [[plugin_six_hats]]).
+- [[test_plugin_v020_ristrutturazione]] (v0.2.0): nel ruolo ✅ (paure dominanti: essere fregati e il cantiere abbandonato).

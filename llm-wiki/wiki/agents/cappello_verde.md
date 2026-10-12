@@ -1,9 +1,9 @@
 ---
 tipo: agent
 data_creazione: 2026-07-02
-data_aggiornamento: 2026-07-02
+data_aggiornamento: 2026-10-12
 cappello_correlato: "[[cappello_verde]]"
-fonti_correlate: ["[[copilot_custom_agents_vscode]]", "[[copilot_subagents_multiagente]]"]
+fonti_correlate: ["[[copilot_custom_agents_vscode]]", "[[copilot_subagents_multiagente]]", "[[porting_claude_plugin]]"]
 file_tecnico: ".github/agents/cappello_verde.agent.md"
 tags: [agent, cappello-verde, creatività, pensiero-laterale, worker]
 ---
@@ -81,3 +81,9 @@ Ignorare completamente i vincoli pratici, economici o logistici durante questa f
 2. E se [rovesciamento di un'assunzione]?
 3. E se [rovesciamento di un'assunzione]?
 ```
+
+---
+
+## Porting su Claude
+
+Nel [[plugin_six_hats]] questo cappello è l'agente `green-hat` (in sessione `six-hats:green-hat`), invocato solo dalla skill `six-hats`. Tool: `WebSearch`, `WebFetch`. `model: inherit`. Fonte: [[porting_claude_plugin]].

@@ -1,12 +1,14 @@
 ---
 tipo: source
 data_creazione: 2026-06-30
-data_aggiornamento: 2026-06-30
+data_aggiornamento: 2026-10-12
 fonti_correlate: []
 tags: [6-hats, de-bono, ufficiale, team, applicazioni]
 ---
 
 # Six Thinking Hats — De Bono Group (sito ufficiale)
+
+- **Provenance**: `raw/references/Six Thinking Hats – De Bono Group.md`
 
 **Autore:** De Bono Group
 **Fonte:** https://www.debonogroup.com/services/core-programs/six-thinking-hats/

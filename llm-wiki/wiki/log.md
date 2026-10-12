@@ -2,6 +2,48 @@
 
 ---
 
+## [2026-10-12] ingest | Allineamento — Conferma del tipo di attività nel Cappello Blu (Update, supera un claim)
+Sorgente raw: `raw/specs/allineamento_conferma_tipo_blu.md` (creata su richiesta dell'utente)
+Pagine create: [[allineamento_conferma_tipo_blu]]
+Pagine aggiornate: [[cappello_blu]] (agent; riga del default sostituita, contraddizione → `Stale`), [[architettura_agenti]] (regola allineata + eccezioni della skill Claude), [[overview]] (conteggio sorgenti), [[index]]
+
+---
+
+## [2026-10-12] lint | 1 contraddizione, 1 orfana, 0 stale, 4 fidelity, 7 evidence errors, uniformate 7 sorgenti (Provenance)
+Riparazioni approvate dall'utente: aggiunta la riga `- **Provenance**:` (percorso in `raw/references/`) a [[copilot_cli_vscode]], [[copilot_custom_agents_vscode]], [[copilot_subagents_vscode]], [[sei_cappelli_7_prompt_ia]], [[six_thinking_hats_betterevaluation]], [[six_thinking_hats_debono_group]], [[six_thinking_hats_wikipedia]]; `data_aggiornamento` → 2026-10-12.
+Da approvare: contraddizione in [[cappello_blu]] (agent) sul default della sequenza; orfana [[six_thinking_hats_betterevaluation]]; citazioni non trovate nei raw in [[edward_de_bono]], [[pensiero_laterale]] / [[cappello_verde]] (agent), [[six_thinking_hats_wikipedia]] (parafrasi tra virgolette); nomi ambigui hats/ ↔ agents/ (6); [[sequenze_per_obiettivo]] senza fonti; `raw/specs/agenti_cappelli.md` e `raw/specs/note_implementazione_agenti.md` senza pagina sorgente.
+
+---
+
+## [2026-10-12] batch-ingest | 3 sorgenti non committate da raw/ (ordine per mtime, dalla più vecchia)
+Ordine: `raw/sessions/2026-10-12_test_plugin_claude_homelab.md` → `raw/specs/porting_claude_plugin.md` → `raw/sessions/2026-10-12_test_plugin_v020_ristrutturazione.md`
+Pagine toccate (unione): [[test_plugin_claude_homelab]], [[porting_claude_plugin]], [[test_plugin_v020_ristrutturazione]], [[dominio_progetto_homelab]], [[impresa_unica_o_piu_ditte]], [[plugin_six_hats]], [[context_leak_memoria_subagenti]], [[architettura_agenti]], [[cappello_blu]], [[cappello_bianco]], [[cappello_giallo]], [[cappello_nero]], [[cappello_rosso]], [[cappello_verde]] (agent), [[overview]], [[index]]
+Lint (scope sulle pagine toccate): nessuna discrepanza reale di source fidelity (8 sospetti, tutti testo di callout o citazioni preesistenti); 1 contraddizione segnalata in [[cappello_blu]] (agent); nomi ambigui hats/ ↔ agents/ e formato "Provenienza" delle sorgenti precedenti già noti.
+
+---
+
+## [2026-10-12] ingest | Sessione di test v0.2.0: impresa unica o più ditte (New + Update)
+Sorgente raw: `raw/sessions/2026-10-12_test_plugin_v020_ristrutturazione.md`
+Pagine create: [[test_plugin_v020_ristrutturazione]], [[impresa_unica_o_piu_ditte]] (decision)
+Pagine aggiornate: [[plugin_six_hats]] (verifica v0.2.0 + v0.2.1), [[context_leak_memoria_subagenti]] (stato → mitigato, verifica, osservazione aperta), [[cappello_blu]], [[cappello_bianco]], [[cappello_giallo]], [[cappello_nero]], [[cappello_rosso]] (agent; comportamento osservato), [[overview]] (decisioni, decisioni aperte, conteggi), [[index]]
+
+---
+
+## [2026-10-12] ingest | Porting su Claude — Plugin six-hats (New + Update + Disputed)
+Sorgente raw: `raw/specs/porting_claude_plugin.md`
+Pagine create: [[porting_claude_plugin]]
+Pagine aggiornate: [[plugin_six_hats]] (architettura, mappatura Copilot → Claude, supporto per superficie, scoperte sui tool, verifiche aperte), [[architettura_agenti]] (sezione "Porting su Claude"), [[context_leak_memoria_subagenti]] (causa tecnica + scelta isolamento/dual-me), [[cappello_blu]] (agent; contraddizione segnalata sul default "Choosing Between Alternatives"), [[cappello_bianco]], [[cappello_giallo]], [[cappello_nero]], [[cappello_rosso]], [[cappello_verde]] (agent; sezione "Porting su Claude"), [[overview]] (agenti, architettura, decisioni aperte, conteggi), [[index]]
+Nota: ordine di ingest per mtime; questo file precede di pochi millisecondi la sessione v0.2.0, che cita già come verifica.
+
+---
+
+## [2026-10-12] ingest | Sessione di test — plugin six-hats su Claude (New)
+Sorgente raw: `raw/sessions/2026-10-12_test_plugin_claude_homelab.md`
+Pagine create: [[test_plugin_claude_homelab]], [[dominio_progetto_homelab]] (decision), [[plugin_six_hats]] (entity), [[context_leak_memoria_subagenti]] (problem)
+Pagine aggiornate: [[cappello_blu]] (agent), [[cappello_bianco]] (agent), [[cappello_giallo]] (agent), [[cappello_nero]] (agent), [[cappello_rosso]] (agent) — sezione "Comportamento osservato su Claude"; [[overview]] (problemi/decisioni in corso + conteggi); [[index]]
+
+---
+
 ## [2026-07-02] ingest | Spec Agenti Cappello (agenti_cappelli.md)
 Sorgente raw: `raw/specs/agenti_cappelli.md`
 Pagine create: [[cappello_blu]] (agent), [[cappello_bianco]] (agent), [[cappello_rosso]] (agent), [[cappello_nero]] (agent), [[cappello_giallo]] (agent), [[cappello_verde]] (agent)

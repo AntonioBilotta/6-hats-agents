@@ -1,12 +1,14 @@
 ---
 tipo: source
 data_creazione: 2026-07-02
-data_aggiornamento: 2026-07-02
+data_aggiornamento: 2026-10-12
 fonti_correlate: []
 tags: [source, copilot, cli, vscode, agenti, implementazione]
 ---
 
 # Copilot CLI sessions in Visual Studio Code
+
+- **Provenance**: `raw/references/Copilot CLI sessions in Visual Studio Code.md`
 
 **Provenienza:** Documentazione ufficiale Microsoft VS Code
 **URL:** https://code.visualstudio.com/docs/agents/agent-types/copilot-cli
