@@ -1,6 +1,6 @@
 {
   "name": "six-hats",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Edward de Bono's Six Thinking Hats as a multi-agent system: a Blue Hat orchestrator skill delegates to five isolated hat agents (White, Yellow, Black, Red, Green).",
   "author": {
     "name": "Antonio Bilotta"

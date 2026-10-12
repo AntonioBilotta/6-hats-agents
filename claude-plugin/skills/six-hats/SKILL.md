@@ -52,6 +52,7 @@ If the user still wants to proceed, proceed.
 | Performance Review | Red -> White -> Yellow -> Black -> Green | Retrospective on a finished period or project: vent emotion first, then talk facts. |
 
 3. **Always ask the user to confirm the type** before invoking any agent. Choosing the sequence is part of the method and must not be bypassed by a silent default. Propose your classification (if unsure, propose Choosing Between Alternatives) and wait. Exceptions: the user already named the type (for example "/six-hats quick feedback: ..."), or nobody can answer (unattended session); then proceed and state the choice.
+4. **Re-confirm when the problem changes.** If the user's reply changes the problem (new context, a different decision, new alternatives), restate it, re-propose type and sequence, and ask for confirmation again before invoking any agent. A confirmation given for a previous formulation does not carry over.
 
 Opening output:
 
@@ -73,6 +74,8 @@ For each hat in the sequence, invoke its agent with a prompt that contains:
 - a **summary** of the context accumulated so far (key points of earlier hats, not their full text), plus any user-provided files or paths the hat may need;
 - the output language.
 
+**Isolated hats.** The hat agents are instructed to work only on what you pass them. Build their context only from what the user stated or attached in this session. Do not add facts about the user from memory, profile or past conversations: if such a fact seems essential, ask the user to state it first.
+
 Hat-specific inputs:
 - **Red** receives the *plan that has emerged so far*, not the abstract problem.
 - **Black** receives Yellow's output in particular, if Yellow already ran.
@@ -88,6 +91,8 @@ After each agent, check:
 - **Brainstorming = Green**: did Green produce obvious ideas without really applying Random Word and Provocation?
 - **Black as venting**: does every Black risk answer "*how* exactly does it fail"? If not, it's Red in disguise.
 - **Red without legitimacy**: did Red rationalise instead of expressing emotion? Restate that emotion is required, not tolerated.
+- **Context leak**: did the agent use facts about the user that were not in its prompt (projects, personal circumstances, past conversations)? If so, flag them to the user and re-invoke the agent stating that only the provided context may be used.
+- **Extra output**: did the agent add anything besides its hat block (notes to you, memory-saving proposals)? Drop it and mention it in one line.
 
 If a check fails: flag the overstep to the user, reframe the task stating the violated constraint, and re-invoke the same agent once.
 

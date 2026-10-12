@@ -51,18 +51,31 @@ or `claude --plugin-dir ./claude-plugin` to try the local folder for a single se
 
 The Blue Hat restates the problem, proposes an activity type and sequence, **waits for your confirmation**, then runs the hats one at a time and closes with a synthesis and 3 next steps.
 
+## Isolated hats
+
+Hat agents can see the user's personal memory: the environment injects it into every subagent, and no agent frontmatter field turns it off. In the first test (v0.1.0) Yellow, Black and White used personal facts that were not in their prompts.
+
+Since v0.2.0 the hats are **isolated by instruction**: each agent has a *Context boundary* section (use only what the Blue Hat passes), and the Blue Hat builds that context only from what the user said in the session and checks for *context leaks* during arbitration. This is a prompt-level guarantee, not a technical one.
+
 ## Test checklist
 
-Things to verify on each surface — they are the open questions of this port:
+Results per surface. Cloud agentic session tested on 2026-10-12 with v0.1.0.
 
-- [ ] **Preflight**: in plain chat, the Blue Hat stops and reports the missing agents (does not improvise the hats)
-- [ ] **Agents loaded**: in Cowork / Claude Code, the five hats appear among available agents (possibly as `six-hats:<hat>`)
-- [ ] **Real delegation**: each hat block comes from a subagent run, not from the Blue Hat
-- [ ] **Sequential**: hats run one after another, never in parallel
-- [ ] **Tool restrictions**: `red-hat` and `yellow-hat` with `tools: []` really have no tools (ask Red to "check a file" and see what happens)
-- [ ] **Type confirmation**: the Blue Hat waits for confirmation unless the type is given in the command
-- [ ] **Arbitration**: a hat that leaves its role gets flagged and re-invoked once
-- [ ] **Context passing**: Red receives the emerging plan; Black receives Yellow's output
+| Check | Agentic session (cloud) | Claude Code | Plain chat |
+|---|---|---|---|
+| **Preflight**: Blue stops and reports missing agents | n/a | n/a | ⬜ |
+| **Agents loaded** as `six-hats:<hat>` | ✅ | ⬜ | n/a |
+| **Real delegation**: each hat is a subagent run | ✅ | ⬜ | n/a |
+| **Sequential**, never parallel | ✅ | ⬜ | n/a |
+| **Tool restrictions**: `red-hat` with `tools: []` has no tools | ✅ (the agent list shows "All tools", but at runtime Red had none) | ⬜ (docs: an empty list may make the agent fail to launch) | n/a |
+| **Type confirmation** before the first agent | ✅ | ⬜ | n/a |
+| **Re-confirmation** when the problem changes | ❌ in v0.1.0, fixed in v0.2.0, to retest | ⬜ | n/a |
+| **Arbitration** of out-of-role hats | ✅ (no overstep occurred) | ⬜ | n/a |
+| **Context passing**: Red gets the plan, Black gets Yellow | ✅ | ⬜ | n/a |
+| **Isolation**: no personal facts outside the prompt | ❌ in v0.1.0, fixed by instruction in v0.2.0, to retest | ⬜ | n/a |
+| **Clean output**: no memory-saving proposals | ❌ in v0.1.0, fixed in v0.2.0, to retest | ⬜ | n/a |
+
+If `red-hat` or `yellow-hat` fail to launch in Claude Code because of the empty `tools` list, replace it with a single tool that reads no data and has no web access.
 
 ## Differences from the Copilot version
 

@@ -34,6 +34,10 @@ Exit signal: you are criticising in the abstract without a concrete failure mech
 
 You may read the files the Blue Hat points you to (specs, designs, code) to ground your risks in what is actually there.
 
+## Context boundary
+
+Work only on the problem and the context passed to you by the Blue Hat in this prompt. Ignore any other knowledge about the user - memory, profile, past conversations - even if it is visible to you. If something essential is missing, list it as missing information (or say you lack it) instead of filling it in from elsewhere.
+
 ## Input
 
 - The problem plus context and analysis from previous hats (especially Yellow, if it already ran).
@@ -62,3 +66,5 @@ Reply with exactly this block, in the requested language:
 ```
 
 Cover different kinds of risk where relevant: technical, economic, timing, unverified assumptions.
+
+Return only your hat block. No notes to the main session, no proposals to save anything to memory, no text before or after the block.

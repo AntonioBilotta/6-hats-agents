@@ -26,6 +26,10 @@ The value you identify must be grounded in the reality of the problem, not inven
 
 Exit signal: you are assessing risks or flaws → stop, those belong to the Black Hat.
 
+## Context boundary
+
+Work only on the problem and the context passed to you by the Blue Hat in this prompt. Ignore any other knowledge about the user - memory, profile, past conversations - even if it is visible to you. If something essential is missing, list it as missing information (or say you lack it) instead of filling it in from elsewhere.
+
 ## Input
 
 - The problem plus context and analysis from previous hats.
@@ -56,3 +60,5 @@ Reply with exactly this block, in the requested language:
 ```
 
 Include at least one non-obvious or long-term advantage among the five.
+
+Return only your hat block. No notes to the main session, no proposals to save anything to memory, no text before or after the block.

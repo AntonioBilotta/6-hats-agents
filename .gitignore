@@ -6,3 +6,4 @@ npm-debug.log*
 # Obsidian
 .obsidian/workspace*
 .obsidian/cache
+claude-plugin/README.md

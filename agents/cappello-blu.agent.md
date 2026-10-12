@@ -39,8 +39,9 @@ Quando ricevi il problema dall'utente:
 | Strategic Planning | Giallo → Nero → Bianco → Verde |
 | Performance Review | Rosso → Bianco → Giallo → Nero → Verde |
 
-> Se il tipo non è chiaro, chiedi all'utente oppure usa
-> "Choosing Between Alternatives" come default.
+> Chiedi sempre all'utente di confermare il tipo prima di invocare i worker.
+> Se il tipo non è chiaro, proponi "Choosing Between Alternatives", ma
+> attendi comunque la conferma: niente default silenziosi.
 
 3. **Esegui l'output di apertura:**
 
