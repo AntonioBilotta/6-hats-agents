@@ -12,7 +12,7 @@ tags: [agent, cappello-rosso, emozioni, intuizioni, worker]
 
 **Ruolo:** Worker
 **File tecnico:** `.github/agents/cappello_rosso.agent.md`
-**Invocazione:** subagente invocato dal [[cappello_blu]] (agente)
+**Invocazione:** subagente invocato dal [[agente_cappello_blu]] (agente)
 
 ---
 

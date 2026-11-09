@@ -26,12 +26,12 @@ Link rapidi: [[overview]] · [[log]]
 
 | Pagina | Descrizione | Ultima modifica |
 |--------|-------------|-----------------|
-| [[cappello_blu]] (agent) | Direttore d'Orchestra — coordinatore user-invocable, orchestrazione sequenza e sintesi finale | 2026-10-12 |
-| [[cappello_bianco]] (agent) | Detective dei Dati — fatti verificabili, lacune, domande specifiche | 2026-10-12 |
-| [[cappello_rosso]] (agent) | Smascheratore dell'Intuizione — emozioni, mappa stakeholder, paure/desideri nascosti | 2026-10-12 |
-| [[cappello_nero]] (agent) | Architetto del Rischio — 5 punti critici, analisi mancato obiettivo, ostacoli trascurati | 2026-10-12 |
-| [[cappello_giallo]] (agent) | Cacciatore di Valore — 5 vantaggi, scenario migliore, strategie di massimizzazione | 2026-10-12 |
-| [[cappello_verde]] (agent) | Catalizzatore della Crescita — alternative non convenzionali, parola casuale, provocazioni | 2026-10-12 |
+| [[agente_cappello_blu]] (agent) | Direttore d'Orchestra — coordinatore user-invocable, orchestrazione sequenza e sintesi finale | 2026-10-12 |
+| [[agente_cappello_bianco]] (agent) | Detective dei Dati — fatti verificabili, lacune, domande specifiche | 2026-10-12 |
+| [[agente_cappello_rosso]] (agent) | Smascheratore dell'Intuizione — emozioni, mappa stakeholder, paure/desideri nascosti | 2026-10-12 |
+| [[agente_cappello_nero]] (agent) | Architetto del Rischio — 5 punti critici, analisi mancato obiettivo, ostacoli trascurati | 2026-10-12 |
+| [[agente_cappello_giallo]] (agent) | Cacciatore di Valore — 5 vantaggi, scenario migliore, strategie di massimizzazione | 2026-10-12 |
+| [[agente_cappello_verde]] (agent) | Catalizzatore della Crescita — alternative non convenzionali, parola casuale, provocazioni | 2026-10-12 |
 
 ---
 

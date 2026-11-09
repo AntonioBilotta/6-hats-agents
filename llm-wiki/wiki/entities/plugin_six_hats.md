@@ -8,7 +8,7 @@ tags: [entity, plugin, claude, agenti, implementazione]
 
 # Plugin six-hats (Claude)
 
-Implementazione del sistema multi-agente 6 Cappelli come **plugin Claude**, installabile dal marketplace GitHub del repo. Il [[cappello_blu]] (agent) orchestra; gli altri cappelli girano come subagenti reali.
+Implementazione del sistema multi-agente 6 Cappelli come **plugin Claude**, installabile dal marketplace GitHub del repo. Il [[agente_cappello_blu]] (agent) orchestra; gli altri cappelli girano come subagenti reali.
 
 ---
 
@@ -91,7 +91,7 @@ Stato: da ritestare.
 
 - **YAML e `<example>`:** gli esempi `<example>` nella descrizione, scritti come nella guida ufficiale (testo multilinea non indentato), rompono lo YAML: l'agente si carica lo stesso ma perde in silenzio `tools` e `model`. Soluzione: `description: |` con il testo indentato. Rilevato da `claude plugin validate` ([[porting_claude_plugin]]).
 - **Zero tool:** non esiste un modo documentato per dare zero tool a un agente. Se `tools` è omesso l'agente li eredita tutti; con una lista vuota la documentazione di Claude Code dice che l'agente "di solito non parte". Nella sessione cloud del 2026-10-12 invece `tools: []` ha funzionato ([[porting_claude_plugin]]).
-- Test preliminare sul [[cappello_rosso]] (agent), invocato fuori da una sessione per verificare `tools: []`: ha riportato di avere solo il tool interno per restituire la risposta e di non aver potuto leggere un file. La lista agenti lo indicava invece come "All tools".
+- Test preliminare sul [[agente_cappello_rosso]] (agent), invocato fuori da una sessione per verificare `tools: []`: ha riportato di avere solo il tool interno per restituire la risposta e di non aver potuto leggere un file. La lista agenti lo indicava invece come "All tools".
 
 ---
 

@@ -12,7 +12,7 @@ tags: [agent, cappello-bianco, dati, fatti, worker]
 
 **Ruolo:** Worker
 **File tecnico:** `.github/agents/cappello_bianco.agent.md`
-**Invocazione:** subagente invocato dal [[cappello_blu]] (agente)
+**Invocazione:** subagente invocato dal [[agente_cappello_blu]] (agente)
 
 ---
 

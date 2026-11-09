@@ -23,7 +23,7 @@ Nella prima sessione reale del plugin ([[test_plugin_claude_homelab]]), Giallo, 
 
 **Scelta di progetto:** cappelli isolati per ora; il "dual-me" (cappelli che usano la memoria e segnalano ogni fatto preso da lì, es. *(da memoria)*) è rimandato a una fase successiva.
 
-**Effetto collegato:** Giallo e Nero hanno anche aggiunto in coda proposte di "salvare in memoria", che il [[cappello_blu]] (agent) ha dovuto togliere.
+**Effetto collegato:** Giallo e Nero hanno anche aggiunto in coda proposte di "salvare in memoria", che il [[agente_cappello_blu]] (agent) ha dovuto togliere.
 
 ---
 

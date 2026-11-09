@@ -35,7 +35,7 @@ Il facilitatore deve:
 4. **Essere pronto a cambiare la sequenza** in base al feedback dei partecipanti
 
 > [!note] Implicazione per il sistema multi-agente
-> Il punto 4 è il più rilevante: l'agente [[cappello_blu]] deve avere la facoltà di modificare la sequenza a metà sessione se l'analisi di un cappello rivela che serve un passo diverso da quello pianificato.
+> Il punto 4 è il più rilevante: l'agente [[agente_cappello_blu]] deve avere la facoltà di modificare la sequenza a metà sessione se l'analisi di un cappello rivela che serve un passo diverso da quello pianificato.
 
 ### Esempio reale documentato
 Il German Federal Ministry for Economic Cooperation (BMZ) ha usato il metodo nelle sessioni di pianificazione post-tsunami in Sri Lanka — confermando l'applicabilità in contesti di decision making complessi con stakeholder multipli.

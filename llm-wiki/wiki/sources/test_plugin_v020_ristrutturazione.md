@@ -41,5 +41,5 @@ Seconda sessione di test del [[plugin_six_hats]], mirata a verificare le tre cor
 - [[plugin_six_hats]] — versione 0.2.0 e correzioni v0.2.1
 - [[impresa_unica_o_piu_ditte]] — decisione presa nella sessione
 - [[context_leak_memoria_subagenti]] — verifica dell'isolamento
-- [[cappello_blu]] (agent), [[cappello_bianco]] (agent), [[cappello_giallo]] (agent), [[cappello_nero]] (agent), [[cappello_rosso]] (agent), [[cappello_verde]]
+- [[agente_cappello_blu]] (agent), [[agente_cappello_bianco]] (agent), [[agente_cappello_giallo]] (agent), [[agente_cappello_nero]] (agent), [[agente_cappello_rosso]] (agent), [[cappello_verde]]
 - [[sequenze_per_obiettivo]] — sequenza Choosing Between Alternatives

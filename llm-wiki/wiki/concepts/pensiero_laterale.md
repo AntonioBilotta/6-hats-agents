@@ -37,7 +37,7 @@ Il pensiero laterale non è casualità o improvvisazione: è un **processo forma
 
 ## Implicazione per il sistema multi-agente
 
-L'agente del [[cappello_verde]] è il portatore del pensiero laterale nel workflow. Le sue tecniche sono:
+L'agente del [[agente_cappello_verde]] è il portatore del pensiero laterale nel workflow. Le sue tecniche sono:
 1. Non accetta "non si può fare" come risposta
 2. Genera prima, valuta poi (la valutazione spetta al [[cappello_giallo]] e [[cappello_nero]])
 3. Usa la disconnessione deliberata (parola casuale) per uscire dai pattern abituali

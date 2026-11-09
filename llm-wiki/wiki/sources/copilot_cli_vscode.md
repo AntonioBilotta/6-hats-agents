@@ -44,7 +44,7 @@ Due modalità di isolamento che determinano dove vanno a finire le modifiche:
 
 ### Hand-off da sessione locale a CLI
 
-È possibile iniziare una sessione in Chat view (es. con il [[cappello_blu]] che enuncia il problema e sceglie la sequenza) e poi passarla a Copilot CLI per l'esecuzione autonoma. Il contesto completo della conversazione viene trasferito.
+È possibile iniziare una sessione in Chat view (es. con il [[agente_cappello_blu]] che enuncia il problema e sceglie la sequenza) e poi passarla a Copilot CLI per l'esecuzione autonoma. Il contesto completo della conversazione viene trasferito.
 
 Flusso tipico per il progetto:
 1. Utente apre Chat view, usa l'agente Cappello Blu per definire il problema
@@ -75,5 +75,5 @@ Flusso tipico per il progetto:
 ## Elementi del dominio toccati
 
 - **Workflow:** [[full_spectrum]] — modalità di esecuzione autonoma via CLI
-- **Agenti:** [[cappello_blu]] — orchestratore che fa il hand-off a CLI
+- **Agenti:** [[agente_cappello_blu]] — orchestratore che fa il hand-off a CLI
 - **Concetto nuovo:** Isolation mode (worktree vs folder) — da considerare nella progettazione degli agenti

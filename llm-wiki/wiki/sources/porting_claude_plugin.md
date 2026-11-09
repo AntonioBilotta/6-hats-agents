@@ -38,6 +38,6 @@ Specifica del porting del sistema multi-agente dai custom agents di GitHub Copil
 - [[plugin_six_hats]] — oggetto della specifica
 - [[architettura_agenti]] — decisioni architetturali (estese al porting su Claude)
 - [[context_leak_memoria_subagenti]] — causa tecnica e scelta dell'isolamento
-- [[cappello_blu]] (agent), [[cappello_bianco]] (agent), [[cappello_giallo]] (agent), [[cappello_nero]] (agent), [[cappello_rosso]] (agent), [[cappello_verde]] (agent)
+- [[agente_cappello_blu]] (agent), [[agente_cappello_bianco]] (agent), [[agente_cappello_giallo]] (agent), [[agente_cappello_nero]] (agent), [[agente_cappello_rosso]] (agent), [[agente_cappello_verde]] (agent)
 - [[copilot_custom_agents_vscode]] — formato Copilot di partenza
 - [[test_plugin_claude_homelab]] — sessione da cui derivano alcune scoperte

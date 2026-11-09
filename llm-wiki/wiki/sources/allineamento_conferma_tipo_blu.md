@@ -17,7 +17,7 @@ tags: [source, spec, cappello-blu, sequenze, conferma-tipo, allineamento]
 
 ## Riassunto
 
-Specifica che risolve la contraddizione nella pagina [[cappello_blu]] (agent): la riga "Default se il tipo non è chiaro: Choosing Between Alternatives" non corrisponde più al comportamento implementato. Fissa la regola valida per Copilot e per il [[plugin_six_hats]] su Claude.
+Specifica che risolve la contraddizione nella pagina [[agente_cappello_blu]] (agent): la riga "Default se il tipo non è chiaro: Choosing Between Alternatives" non corrisponde più al comportamento implementato. Fissa la regola valida per Copilot e per il [[plugin_six_hats]] su Claude.
 
 ---
 
@@ -33,5 +33,5 @@ Specifica che risolve la contraddizione nella pagina [[cappello_blu]] (agent): l
 
 ## Pagine toccate
 
-- [[cappello_blu]] (agent) — riga del default sostituita e marcata come superata
+- [[agente_cappello_blu]] (agent) — riga del default sostituita e marcata come superata
 - [[architettura_agenti]] — eccezioni aggiunte alla decisione sulla sequenza

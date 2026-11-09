@@ -96,4 +96,4 @@ Decisioni validate per il porting del sistema su Claude come [[plugin_six_hats]]
 
 - [[copilot_subagents_multiagente]] — analisi architetturale di partenza
 - [[porting_claude_plugin]] — specifica del porting su Claude
-- [[cappello_blu]] (agent) — coordinatore, unico `user-invocable: true`
+- [[agente_cappello_blu]] (agent) — coordinatore, unico `user-invocable: true`

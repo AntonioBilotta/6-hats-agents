@@ -26,7 +26,7 @@ Prima sessione reale del [[plugin_six_hats]] dopo l'installazione dal marketplac
 
 ## Punti chiave
 
-- Il controllo di adeguatezza del [[cappello_blu]] (agent) ha intercettato una domanda troppo generica e ha portato a riformularla su un progetto reale.
+- Il controllo di adeguatezza del [[agente_cappello_blu]] (agent) ha intercettato una domanda troppo generica e ha portato a riformularla su un progetto reale.
 - Il controllo iniziale ha trovato i 5 agenti come `six-hats:<cappello>`; ogni cappello è stato eseguito come subagente reale, in sequenza, con il passaggio di contesto previsto (il Nero ha ricevuto il Giallo, il Rosso il piano emerso).
 - I tool sono stati rispettati: il Bianco ha cercato sul web (10 tool use), il Giallo e il Rosso no. Nessuno sconfinamento di ruolo.
 - **Context leak:** Giallo, Nero e Bianco hanno usato fatti personali che non erano nel loro prompt, perché i subagenti ricevono la memoria dell'utente dall'ambiente → [[context_leak_memoria_subagenti]].
@@ -42,5 +42,5 @@ Prima sessione reale del [[plugin_six_hats]] dopo l'installazione dal marketplac
 - [[plugin_six_hats]] — plugin Claude in versione 0.1.0
 - [[dominio_progetto_homelab]] — decisione presa nella sessione
 - [[context_leak_memoria_subagenti]] — problema emerso
-- [[cappello_blu]] (agent), [[cappello_bianco]] (agent), [[cappello_giallo]] (agent), [[cappello_nero]] (agent), [[cappello_rosso]] (agent)
+- [[agente_cappello_blu]] (agent), [[agente_cappello_bianco]] (agent), [[agente_cappello_giallo]] (agent), [[agente_cappello_nero]] (agent), [[agente_cappello_rosso]] (agent)
 - [[sequenze_per_obiettivo]] — sequenza Choosing Between Alternatives

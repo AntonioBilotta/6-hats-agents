@@ -55,7 +55,7 @@ Il sistema prevede sei agenti AI, ciascuno incarnante un cappello diverso, orche
 
 ## Agenti AI definiti
 
-Sei agenti definiti in `wiki/agents/`: [[cappello_blu]] (agent, coordinatore), [[cappello_bianco]], [[cappello_rosso]], [[cappello_giallo]], [[cappello_nero]], [[cappello_verde]] (worker). Su Claude il Blu diventa la skill `six-hats` e i cinque worker gli agenti `white-hat`, `yellow-hat`, `black-hat`, `red-hat`, `green-hat` del [[plugin_six_hats]] (fonte: [[porting_claude_plugin]]).
+Sei agenti definiti in `wiki/agents/`: [[agente_cappello_blu]] (agent, coordinatore), [[agente_cappello_bianco]], [[agente_cappello_rosso]], [[agente_cappello_giallo]], [[agente_cappello_nero]], [[agente_cappello_verde]] (worker). Su Claude il Blu diventa la skill `six-hats` e i cinque worker gli agenti `white-hat`, `yellow-hat`, `black-hat`, `red-hat`, `green-hat` del [[plugin_six_hats]] (fonte: [[porting_claude_plugin]]).
 
 ---
 
@@ -81,7 +81,7 @@ Sei agenti definiti in `wiki/agents/`: [[cappello_blu]] (agent, coordinatore), [
 
 **Piattaforma target:** GitHub Copilot Chat (VS Code) con supporto Copilot CLI per esecuzione autonoma.
 
-**Pattern di orchestrazione:** Coordinator + Worker via subagenti. Il [[cappello_blu]] è il coordinatore; gli altri cinque cappelli sono worker con `user-invocable: false` (accessibili solo tramite Blu).
+**Pattern di orchestrazione:** Coordinator + Worker via subagenti. Il [[agente_cappello_blu]] è il coordinatore; gli altri cinque cappelli sono worker con `user-invocable: false` (accessibili solo tramite Blu).
 
 **Formato agenti:** file `.agent.md` in `.github/agents/` — compatibili sia con Chat view (subagents) che con Copilot CLI.
 

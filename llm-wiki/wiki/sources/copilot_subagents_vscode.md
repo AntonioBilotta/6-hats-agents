@@ -18,7 +18,7 @@ tags: [source, copilot, subagents, vscode, implementazione, orchestrazione]
 
 ## Riassunto
 
-I subagenti in VS Code permettono a un agente coordinatore di delegare subtask a worker con contesto isolato. È il meccanismo che implementa il pattern **Coordinator + Worker** — essenziale per il workflow 6 cappelli: il [[cappello_blu]] coordina, i cappelli-worker eseguono in sequenza ognuno nel proprio contesto separato.
+I subagenti in VS Code permettono a un agente coordinatore di delegare subtask a worker con contesto isolato. È il meccanismo che implementa il pattern **Coordinator + Worker** — essenziale per il workflow 6 cappelli: il [[agente_cappello_blu]] coordina, i cappelli-worker eseguono in sequenza ognuno nel proprio contesto separato.
 
 ---
 
@@ -107,4 +107,4 @@ Disabilitati per default (`chat.subagents.allowInvocationsFromSubagents = false`
 
 - **Workflow:** [[full_spectrum]] — architettura Coordinator+Worker come implementazione tecnica
 - **Concetti:** [[parallel_thinking]] — i subagenti implementano strutturalmente l'isolamento delle prospettive
-- **Agenti:** [[cappello_blu]] — coordinatore con `tools: ['agent']` e `agents: [...]`
+- **Agenti:** [[agente_cappello_blu]] — coordinatore con `tools: ['agent']` e `agents: [...]`
